@@ -6,6 +6,9 @@ plugins {
     alias(libs.plugins.composeCompiler)
 }
 
+// 发版 CI 用 -PpackageVersion=<去 v 的 tag> 注入；本地开发默认 1.0.0
+val appVersion = (project.findProperty("packageVersion") as? String)?.trim().orEmpty().ifEmpty { "1.0.0" }
+
 dependencies {
     implementation(project(":shared"))
 
@@ -37,7 +40,7 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "harmonytouping"
-            packageVersion = "1.0.0"
+            packageVersion = appVersion
         }
     }
 }
