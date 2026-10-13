@@ -1,0 +1,54 @@
+gradlew.bat
+  h_b7c29c380c3993 1-82
+.gitignore
+  h_b7c29c380c3993 1-19
+desktopApp/src/test/kotlin/com/lesliefang/harmonytouping/VideoStreamDecoderTest.kt
+  h_b7c29c380c3993 1-129
+gradle/gradle-daemon-jvm.properties
+  h_b7c29c380c3993 1-13
+shared/src/commonMain/kotlin/com/lesliefang/harmonytouping/geom/ViewportMath.kt
+  h_b7c29c380c3993 1-60
+gradle/libs.versions.toml
+  h_b7c29c380c3993 1-27
+shared/build.gradle.kts
+  h_b7c29c380c3993 1-26
+gradle.properties
+  h_b7c29c380c3993 1-7
+desktopApp/src/main/kotlin/com/lesliefang/harmonytouping/mirror/VideoStreamDecoder.kt
+  h_b7c29c380c3993 1-181
+shared/src/commonMain/kotlin/com/lesliefang/harmonytouping/key/KeyCodeMapper.kt
+  h_b7c29c380c3993 1-117
+desktopApp/build.gradle.kts
+  h_b7c29c380c3993 1-43
+shared/src/commonMain/composeResources/drawable/compose-multiplatform.xml
+  h_b7c29c380c3993 1-44
+desktopApp/src/main/kotlin/com/lesliefang/harmonytouping/mirror/MirrorSession.kt
+  h_b7c29c380c3993 1-331
+settings.gradle.kts
+  h_b7c29c380c3993 1-65
+gradlew
+  h_b7c29c380c3993 1-248
+desktopApp/src/main/kotlin/com/lesliefang/harmonytouping/ui/App.kt
+  h_b7c29c380c3993 1-490
+desktopApp/src/main/kotlin/com/lesliefang/harmonytouping/device/HdcCli.kt
+  h_b7c29c380c3993 1-116
+gradle/wrapper/gradle-wrapper.properties
+  h_b7c29c380c3993 1-10
+desktopApp/src/main/kotlin/com/lesliefang/harmonytouping/Main.kt
+  h_b7c29c380c3993 1-64
+build.gradle.kts
+  h_b7c29c380c3993 1-8
+README.md
+  h_b7c29c380c3993 1-108
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "5.30.2",
+  "base_commit_sha": "f54f8cc8353e6ec702c079eee429a017ea4a45f5",
+  "prompts": {},
+  "humans": {
+    "h_b7c29c380c3993": {
+      "author": "fanglin <fanglin12@h-partners.com>"
+    }
+  }
+}
