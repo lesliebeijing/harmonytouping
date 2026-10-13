@@ -1,0 +1,47 @@
+.github/workflows/release.yml
+  s_26db4ebd5357ad::t_a41fe4fdc78613 1-21,27-28,32-33,37-54,56-57,60-73
+  s_26db4ebd5357ad::t_c29cbad5b962c0 22-26,29-31,34-36
+  s_26db4ebd5357ad::t_3b9e342f7b7b08 58-59
+  s_26db4ebd5357ad::t_f2e6815c06822a 55
+desktopApp/build.gradle.kts
+  s_26db4ebd5357ad::t_4a9c7798165664 9-11
+  s_26db4ebd5357ad::t_8327a9588d2777 43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "5.30.2",
+  "base_commit_sha": "fff83ed0e3fc18853603566d477c47f38c2e8a60",
+  "prompts": {},
+  "humans": {
+    "h_b6170ff743a2db": {
+      "author": "fanglin <fl_beijing@126.com>"
+    }
+  },
+  "sessions": {
+    "s_26db4ebd5357ad": {
+      "agent_id": {
+        "tool": "zcode",
+        "id": "sess_df8a0c6d-0398-4b88-8cdd-c2bfafe69cf7",
+        "model": "GLM-5.3"
+      },
+      "human_author": "fanglin <fl_beijing@126.com>",
+      "total_additions": 82,
+      "total_deletions": 6,
+      "overridden_lines": 0,
+      "turn_models": {
+        "t_3b9e342f7b7b08": "GLM-5.3",
+        "t_4a9c7798165664": "GLM-5.3",
+        "t_8327a9588d2777": "GLM-5.3",
+        "t_a41fe4fdc78613": "GLM-5.3",
+        "t_c29cbad5b962c0": "GLM-5.3",
+        "t_f2e6815c06822a": "GLM-5.3"
+      },
+      "model_totals": {
+        "GLM-5.3": {
+          "additions": 82,
+          "deletions": 6
+        }
+      }
+    }
+  }
+}
